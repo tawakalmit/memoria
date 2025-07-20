@@ -15,7 +15,7 @@ export default async function Albums({ params }) {
   }
 
   return (
-    <div className="bg-black min-h-screen flex flex-col w-full justify-center gap-5">
+    <div className="bg-black min-h-screen flex flex-col w-full justify-center gap-2">
       {allAlbum.map((item, index) => (
         <AlbumCover 
           key={index} 

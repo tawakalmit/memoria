@@ -2,9 +2,18 @@ export const Menu = [
     {
         title : "Big Family",
         slug : "big-family",
-        image : "big-family.jpg",
+        image : "big-family-cover.jpeg",
         albums : [
-            {}
+            {
+                title : "Majalaya",
+                slug : "majalaya",
+                image : "big-family-cover.jpeg",
+            },
+            {
+                title : "Cimacan",
+                slug : "cimacan",
+                image : "big-family-cover.jpeg",
+            },
         ]
     },
     {
@@ -32,32 +41,32 @@ export const Menu = [
     {
         title : "School",
         slug : "school",
-        image : "school.jpg",
+        image : "school-cover.jpeg",
         albums : [
             {
                 title : "Kelas 9B",
                 slug : "kelas-9b",
-                image : "sample.jpg",
+                image : "ix-b.jpeg",
             },
             {
                 title : "Kelas X1",
                 slug : "kelas-x1",
-                image : "sample.jpg",
+                image : "x-1.jpeg",
             },
             {
                 title : "Kelas XI IPA 2",
                 slug : "kelas-xi-ipa-2",
-                image : "sample.jpg",
+                image : "xi-ipa-2.jpeg",
             },
             {
                 title : "Kelas XII IPA 3",
                 slug : "kelas-xii-ipa-3",
-                image : "sample.jpg",
+                image : "xii-ipa-3.jpeg",
             },
             {
                 title : "MMC 2011",
                 slug : "mmc-2011",
-                image : "sample.jpg",
+                image : "mmc-2011.jpeg",
             },
         ]
     }
